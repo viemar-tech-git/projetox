@@ -5,8 +5,7 @@ import sys
 nome_projeto = sys.argv[0]
 
 print(f"--- Iniciando teste do projeto: {nome_projeto} ---")
-print(f"Codigo anterado, teste final. Junto com Gabriel...")
-print(f"printando mais uma linha para teste de commit...")
+print(f"Versão 3.0.0")
 
 for i in range(30, 0, -1):
     print(f"Rodando... {i} segundos restantes", end="\r")
